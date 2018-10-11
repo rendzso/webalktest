@@ -1,6 +1,6 @@
 package hu.iit.service;
 
-public interface CalculatorInterface {
+public interface Calculator {
 
     double add(double a, double b);
 

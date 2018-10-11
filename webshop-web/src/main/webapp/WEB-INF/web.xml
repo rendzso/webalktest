@@ -11,51 +11,5 @@
         <param-value></param-value>
     </context-param>
 
-    <servlet>
-        <servlet-name>AdditionServlet</servlet-name>
-        <servlet-class>web.config.AdditionServlet</servlet-class>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-
-    <servlet>
-        <servlet-name>SubstractionServlet</servlet-name>
-        <servlet-class>web.config.SubstractionServlet</servlet-class>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-
-    <servlet>
-        <servlet-name>MultiplicationServlet</servlet-name>
-        <servlet-class>web.config.MultiplicationServlet</servlet-class>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-
-    <servlet>
-        <servlet-name>DivisionServlet</servlet-name>
-        <servlet-class>web.config.DivisionServlet</servlet-class>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>AdditionServlet</servlet-name>
-        <url-pattern>/add</url-pattern>
-    </servlet-mapping>
-
-
-    <servlet-mapping>
-        <servlet-name>SubstractionServlet</servlet-name>
-        <url-pattern>/sub</url-pattern>
-    </servlet-mapping>
-
-
-    <servlet-mapping>
-        <servlet-name>MultiplicationServlet</servlet-name>
-        <url-pattern>/mul</url-pattern>
-    </servlet-mapping>
-
-
-    <servlet-mapping>
-        <servlet-name>DivisionServlet</servlet-name>
-        <url-pattern>/div</url-pattern>
-    </servlet-mapping>
 
 </web-app>
