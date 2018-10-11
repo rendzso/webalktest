@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>webshop.service</artifactId>
+    <artifactId>webshop-core</artifactId>
 
-    <name>webshop.service</name>
+    <name>webshop.core</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -27,11 +27,6 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>hu.iit</groupId>
-            <artifactId>webshop.core</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
