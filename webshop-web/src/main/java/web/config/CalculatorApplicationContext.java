@@ -18,10 +18,12 @@ public class CalculatorApplicationContext {
     @Value("${calc.defaultValue}")
     private double defaultValue;
 
+
     @Autowired Calculator calculator;
 
     @Bean
     public CalculatorController calculatorController(){
+        System.out.println(defaultValue);
         return new CalculatorController(calculator);
     }
 

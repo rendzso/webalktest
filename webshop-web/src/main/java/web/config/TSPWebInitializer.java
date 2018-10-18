@@ -13,7 +13,6 @@ public class TSPWebInitializer implements WebApplicationInitializer {
     @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
 
-        System.out.println("cica");
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
         ctx.register(CalculatorApplicationContext.class);
         ctx.setServletContext(servletContext);
