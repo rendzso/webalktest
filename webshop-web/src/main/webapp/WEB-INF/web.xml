@@ -6,10 +6,5 @@
     <display-name>WebShop Exercise Web Application</display-name>
 
 
-    <context-param>
-        <param-name>contextConfigLocation</param-name>
-        <param-value></param-value>
-    </context-param>
-
 
 </web-app>
